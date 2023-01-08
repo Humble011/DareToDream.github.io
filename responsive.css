@@ -1,0 +1,238 @@
+/* responsive */
+@media only screen and (max-width: 1120px) {
+    .header .nav ul li {
+        margin-left: 20px;
+    }
+
+    .services_boxes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+   
+  }
+  
+  .container{
+    max-width: 80vw;
+  }
+
+  .box{
+    width: 500px;
+    background: #fff;
+    padding: 2rem;
+    margin: 1rem 2rem;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    box-shadow: 1px 30px 20px rgba(0, 0, 0, 0.1);
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 60px;
+    max-width: 800px;
+    margin: 20px auto;
+   max-width: 80vw;
+    /* border: 1px solid red; */
+  }
+  
+  .about .container{
+    max-width: 80vw;
+  }
+  .else .container{
+    max-width: 80vw;
+  }
+  .else .kanan{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  .slogan-wrapper {
+    margin-top: 70px;
+    margin-left: 50px;
+  }
+  
+  .slogan-wrapper h1 {
+    font-size: 25px;
+  }
+
+  .panel-flex-left {
+    flex: 40%;
+    margin: 0 25px 0 25px;
+}
+
+.panel-flex-center {
+    flex: 40%;
+    margin: 0 25px 0 25px;
+    text-align: right;
+}
+
+.panel-flex-right {
+    flex: 100%;
+    margin: 30px 25px 0 25px;
+    text-align: center;
+}
+  
+  }
+  @media only screen and (max-width: 770px) {
+  .header .container {
+    max-width: 100vw;
+  }
+  
+  .form-wrapper {
+    width: 100%;
+  }
+  
+  .slogan-wrapper {
+    display: none;
+  }
+
+  .panel-flex-left {
+    flex: 100%;
+    margin: 0 25px 10px 25px;
+    text-align: center;
+}
+
+.panel-flex-left li {
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.panel-flex-center {
+    flex: 100%;
+    margin: 10px 25px 0 25px;
+    text-align: center;
+}
+
+.panel-flex-center .link,
+.book {
+    padding: 0 0 10px 0;
+    margin: 0;
+}
+
+.footer-box {
+    float: left;
+    width: 33.33%;
+}
+
+.panel-flex-right {
+    flex: 100%;
+    margin: 30px 25px 0 25px;
+    text-align: center;
+}
+
+.bottom-flex-left {
+    flex: 100%;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.bottom-flex-center {
+    flex: 100%;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.bottom-flex-right {
+    flex: 100%;
+    text-align: center;
+}
+  
+  }
+  
+  @media only screen and (max-width: 425px) {
+    /* bagian header */
+    .nav-toggler{
+    	display: flex;
+    }
+    .header .nav{
+    	position: absolute;
+		font-weight: bold;
+    	left:0;
+    	top:100%;
+    	width: 100%;
+    	background-color: rgb(240, 240, 240);
+		padding: 20px;
+    	border-top: 1px solid rgba(255,255,255,0.2);
+    	opacity:0;
+    	visibility: hidden;
+    }
+    .header .nav ul li{
+    	display: block;
+    	margin:0;
+    }
+	
+	.header .nav ul li .button{
+		background: rgba(249,182,7);
+		box-shadow: 1px 2px rgb(226, 162, 0);
+		padding: 10px 80px;
+	}
+
+	.header .nav ul li .button:hover {
+		cursor: pointer;
+		background: rgb(0,159,243);
+		box-shadow: 2px 2px 4px rgb(1,122,122);
+	}
+	
+    .header #nav-check:checked ~ .nav{
+       opacity: 1;
+       visibility: visible;
+    }
+    .header #nav-check:focus ~ .nav-toggler{
+    	box-shadow: 0 0 1px #000000;
+    }
+    .header #nav-check:checked ~ .nav-toggler span{
+    	background-color: transparent;
+    }
+    .header #nav-check:checked ~ .nav-toggler span::before{
+    	top:0;
+    	transform: rotate(45deg);
+    }
+    .header #nav-check:checked ~ .nav-toggler span::after{
+    	top:0;
+    	transform: rotate(-45deg);
+    }
+    
+    .header .logo img {
+        width: 120px;
+    }
+    
+    .home h1 {
+      font-size: 3rem;
+    }
+  
+    .home_buttons {
+      margin-top: 0rem;
+    }
+  
+    .box {
+      width: 100%;
+    }
+  
+    .booking-wrapper {
+      height: 650px;
+    }
+  
+    .heading a {
+      font-size: 10px;
+      padding: 0 10px;
+    }
+
+    .footer-box {
+      width: 100%;
+    }
+    
+  }
+
+@media only screen and (max-width: 320px) {
+  .else .kanan{
+    display: grid;
+    grid-template-columns: 1fr ;
+    gap: 15px;
+    align-items: center;
+  }
+}
+  
