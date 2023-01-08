@@ -14,7 +14,7 @@ Nama Team: Dare To Dream
 Tema: Travel & Tours
 
 Anggota Team:
-- Aan Putra
+- Aan Putra Bungsu
 - Muhammad Hilmi
 - Muhammad Abdul Hafizh
 - Yosua Wowor
