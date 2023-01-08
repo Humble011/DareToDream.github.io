@@ -136,7 +136,27 @@ text-align: center;
   background-image: url(img/bg);
   background-size: cover;
   height: 100vh;
+  animation: slideshow 20s 4s infinite;
 }
+ @keyframes slideshow {
+
+	0%,
+	50% {
+	  background-image: url(img/bg);
+	}
+  
+	25% {
+	  background-image: url(img/bg2.jpg);
+	}
+  
+	75% {
+	  background-image: url(img/bg3.jpg);
+	}
+  
+	100% {
+	  background-image: url(img/bg4.jpg);
+	}
+  }
 
 .overlay{
   height: 100%;
