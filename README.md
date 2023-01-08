@@ -17,6 +17,5 @@ Anggota Team:
 - Aan Putra
 - Muhammad Hilmi
 - Muhammad Abdul Hafizh
-- Bakri Ahmad Ridhwan
 - Yosua Wowor
 
