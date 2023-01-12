@@ -16,6 +16,6 @@ Tema: Travel & Tours
 Anggota Team:
 - Aan Putra Bungsu
 - Muhammad Hilmi
-- M Abdul Hafizh
+- Muhammad Abdul Hafizh
 - Yosua Wowor
 
